@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-c$o8v3$k4_82#s_z*3$nsm-6oy65q_)72i87jcj2__b4p+*pqa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-bjornbishop-pp4draft6-f12usexoa6v.ws-eu116.gitpod.io']
+ALLOWED_HOSTS = ['8000-bjornbishop-pp4draft6-f12usexoa6v.ws-eu116.gitpod.io','.herokuapp.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_world',
+    'about',
 ]
 
 MIDDLEWARE = [
